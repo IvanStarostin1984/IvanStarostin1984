@@ -8,7 +8,7 @@
 - 🤝 **Looking for:** full‑time internship **Sep 2025 – Feb 2026** (Berlin or remote within Germany) in backend, data, ML or cloud roles  
 - 📚 **Publications:** see my [Google Scholar profile](https://scholar.google.com/citations?user=oCVFsu4AAAAJ)  
 - 👩‍💻 **Reality check:** still early on hands‑on coding, but levelling up every sprint and happy to learn the tech your stack needs  
-- ⚡ **Fun fact:** a Python + OR‑Tools script once trimmed a 20‑truck fleet’s mileage by ~20 %  
+- ⚡ **Fun fact:** I once optimised a 20‑truck fleet and cut its annual mileage by **18 %**, then launched Russia’s first World Hypertension Day campaign! 
 
 #### 🧰 Toolbox
 `Python` · `Java` · `Spring Boot` · `Docker` · `GitHub Actions` · `AWS` · `GCP` · `Stata 18` · `scikit‑learn` · `OR‑Tools`
