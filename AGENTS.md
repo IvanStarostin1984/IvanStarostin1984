@@ -5,6 +5,12 @@
 > If you change *any* rule below, **bump the version number in this heading**.
 
 ---
+Always follow single source of truth.
+Always do as specified in signle source of truth.
+If something is not specified in single source of truth - choose simplest safest options.
+Implement project as specified in TODO.md. Reflect on progress in NOTES.md.
+When any issue in codex environment happens, always suggest additions/modifications to this AGENTS.md to prevent such issues in future.
+Maintain and develop the project so that after each new feature user will be able to download github repo and run in local IDE to test manually.
 
 ## 1 · File‑ownership & merge‑conflict safety
 
