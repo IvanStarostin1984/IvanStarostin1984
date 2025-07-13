@@ -44,7 +44,9 @@ Maintain and develop the project so that after each new feature user will be abl
 3. **Style rules** – keep code formatted (`black`, `prettier`, `dart format`, etc.) and Markdown lines ≤ 80 chars; exactly **one blank line** separates log entries.  
 4. **Exit‑code conventions** – scripts must exit ≠ 0 on failure so CI catches regressions (e.g. fail fast when quality gates or metric thresholds aren’t met).  
 5. **Version‑pin policy** – pin *major*/*minor* versions for critical runtimes & actions (e.g. `actions/checkout@v4`, `node@20`, `python~=3.11`).  
-6. **When docs change, update them everywhere** – if ambiguity arises, `/docs` overrides this file.  
+6. **When docs change, update them everywhere** – if ambiguity arises, `/docs` overrides this file.
+7. **Log discipline** – when a TODO item is ticked you **must** add the matching
+   section in `NOTES.md` *in the same PR*; this keeps roadmap and log in‑sync.  
 
 ---
 
