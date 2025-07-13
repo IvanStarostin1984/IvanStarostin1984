@@ -19,13 +19,12 @@
 - [ ] Push the first green CI run (docs‑only + full‑tests job)
 
 ## 1 · Core functionality  
-*(repeat the five‑step pattern for every MVP feature A, B, C, …)*  
-- [ ] Analyse the source‑of‑truth docs and define acceptance criteria for
-      **feature A**
-- [ ] Document assumptions & edge‑cases for feature A in `/docs` or README
-- [ ] Implement feature A
-- [ ] Add unit / integration tests that lock expected behaviour
-- [ ] Wire CI quality gate (coverage ≥ 80 %, metric thresholds, etc.) so it
+*Repeat the five‑bullet block below for every MVP feature A, B, C, …*  
+- [ ] Analyse source‑of‑truth docs; define acceptance criteria for **feature A**  
+- [ ] Document assumptions / edge‑cases for feature A in `/docs` or README  
+- [ ] Implement feature A  
+- [ ] Add unit / integration tests for feature A  
+- [ ] Wire CI quality gate (coverage ≥ 80 %, metric thresholds, etc.) that
       exits 1 on regression
 
 ## 2 · Documentation & CI
