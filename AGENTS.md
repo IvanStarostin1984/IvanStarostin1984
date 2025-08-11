@@ -20,6 +20,10 @@ Maintain and develop the project so that after each new feature user will be abl
 | **Append‑only logs** | `TODO.md` & `NOTES.md` are linear logs—**never delete or reorder entries**.<br>Add new items **at the end of the file**. |
 | **Generated‑files rule** | Anything under `generated/**` or `openapi/**` is **code‑generated** – never hand‑edit; instead rerun the generator. |
 | **Search for conflict markers before every commit** | `git grep -n '<<<<<<<\\|=======\\|>>>>>>>'` must return nothing. |
+- **Search for conflict markers before every commit** –
+  `git grep -n -E '<{7}|={7}|>{7}'` must return nothing.
+- **Never include conflict markers verbatim** –
+  mention them as `<{7}`, `={7}` or `>{7}` to keep grep quiet.
 
 ---
 
