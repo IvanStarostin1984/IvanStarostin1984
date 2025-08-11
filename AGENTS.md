@@ -19,7 +19,6 @@ Maintain and develop the project so that after each new feature user will be abl
 | **Distinct‑files rule** | Every concurrent task **must** edit a unique list of non‑markdown files.<br>_Shared exceptions:_ anyone may **append** (never rewrite) `AGENTS.md`, `TODO.md`, `NOTES.md`. |
 | **Append‑only logs** | `TODO.md` & `NOTES.md` are linear logs—**never delete or reorder entries**.<br>Add new items **at the end of the file**. |
 | **Generated‑files rule** | Anything under `generated/**` or `openapi/**` is **code‑generated** – never hand‑edit; instead rerun the generator. |
-| **Search for conflict markers before every commit** | `git grep -n '<<<<<<<\\|=======\\|>>>>>>>'` must return nothing. |
 - **Search for conflict markers before every commit** –
   `git grep -n -E '<{7}|={7}|>{7}'` must return nothing.
 - **Never include conflict markers verbatim** –
