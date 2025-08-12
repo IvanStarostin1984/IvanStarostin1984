@@ -17,6 +17,7 @@
 - [ ] Define ownership of all generated code in `/generated/**` and record the
       regeneration command in `AGENTS.md`
 - [ ] Push the first green CI run (docs‑only + full‑tests job)
+- [ ] Setup pre-commit
 
 ## 1 · Core functionality  
 *Repeat the five‑bullet block below for every MVP feature A, B, C, …*  
