@@ -12,6 +12,9 @@ Implement project as specified in TODO.md. Reflect on progress in NOTES.md.
 When any issue in codex environment happens, always suggest additions/modifications to this AGENTS.md to prevent such issues in future.
 Maintain and develop the project so that after each new feature user will be able to download github repo and run in local IDE to test manually.
 
+## 0 · Modularity/high cohesion/low coupling directive
+Design as a modular monolith of cohesive feature modules aligned to business capabilities (bounded contexts). For each module, define its purpose and a minimal public API (ports) first; keep domain logic framework‑free behind interfaces (information hiding, SOLID—ISP/DIP) and implement I/O/framework concerns as replaceable adapters (hexagonal), composed via explicit dependency injection. Keep dependencies acyclic and directed inward to stable abstractions; package by feature, not by layer. From high‑level specs, first output a module map and interface contracts, then implement the smallest end‑to‑end vertical slice to validate the design. Enforce boundaries with architecture tests and CI fitness functions (e.g., no cycles; domain has zero framework/adapter imports) and track cohesion/coupling trends (e.g., LCOM/CBO, dependency DAG). Prefer small interfaces and units with a single reason to change; document each module’s API and invariants; extract services only when operational needs justify it.
+
 ## 1 · File‑ownership & merge‑conflict safety
 
 | Rule | Detail |
